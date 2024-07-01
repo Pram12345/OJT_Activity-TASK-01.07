@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript HTML DOM</title>
+</head>
+<body>
+    <!-- <h1>JavaScript HTML DOM</h1> -->
+
+    <!-- <p id="demo">Finding HTML element by Id</p>
+
+    <p id="intro"></p>
+    
+</body>
+
+<script>
+    const element = document.getElementById("demo");
+
+    document.getElementById("intro").innerHTML="The text from the intro paragraph." +element.innerHTML;
+</script> -->
+
+
+
+
+<!-- ---------------------element.getElementByTagName-----------------------  -->
+
+<h1>JavaScript HTML DOM</h1>
+
+<!-- <p>Finding the html element by tag.</p>
+<p>this is Awosome work.</p>
+
+<p id = "demo"></p>
+
+
+<script>
+    const element = document.getElementsByTagName("p");
+    document.getElementById("demo").innerHTML = "Hello Dost ..." + element[1].innerHTML;
+</script> -->
+
+
+<!-- <div id="main">
+    <p>Finding the <b>html element get by Id.</b></p>
+    <p>This is Awosome work...</p>
+</div>
+<br>
+<br>
+<br>
+<br>
+
+
+<p id="demo"></p>
+
+<script>
+    const x = document.getElementById("main");
+    const y = x.getElementsByTagName("p");
+    document.getElementById("demo").innerHTML = "Hello Dost .." + y[1].innerHTML;
+</script> -->
+
+
+<!-- ......................FINDING Element THE QUERY SELECTOR..................... 
+
+<p class="intro">Hello js!!</p>
+<p class="intro">This example demostrate <b>html element by query selector..</b></p>
+
+<p id="demo"></p>
+
+
+<script>
+    const element = document.querySelectorAll("p.intro")
+    document.getElementById("demo").innerHTML = "hello Dost .." +element[1].innerHTML;
+</script>
+ -->
+
+
+
+
+
+
+
+ <!-- ----------------------Finding HTML Elements by HTML Object Collections---------------------
+
+ <h1> Finding HTML Elements Using <b>document.forms</b></h1>
+ <form id="frm">
+   Name: <input type="text" name="name" value="Ram"/><br>
+   Lname: <input type="text" name="lname" value="Prajapati"/><br>
+    <input type="Submit" value="submit"/>
+
+
+
+ </form>
+
+ <p id="demo"></p>
+
+<script>
+    const x = document.forms['frm'];
+    let text = "";
+    for(let i = 0; i < x.length ; i++){
+        text += x.elements[i].value +"<br>";
+    }
+    document.getElementById("demo").innerHTML=text;
+</script> -->
+
+
+
+
+<!-- 
+<h2>JavaScript can Change HTML</h2>
+
+
+<p id="p1">hello javascript tumhare text ko badlna hai</p>
+
+<p id="demo"></p>
+
+<script>
+    document.getElementById("p1").innerHTML="javascrip tumhara content change ho gaya...."
+</script> -->
+
+
+<!-- <h2>Changing the Value of an Attribute</h2>
+
+<img src="Screenshot 1.png" id="img1" alt="">
+
+<script>
+    document.getElementById("img1").src ="images.jpg";
+    </script> -->
+
+
+    <!-- <h2>Dynamic HTML content</h2>
+
+    <p id="demo"></p>
+    <script>
+       document.getElementById("demo").innerHTML = "Date : " + Date();
+    </script> -->
+
+
+
+
+
+</html>

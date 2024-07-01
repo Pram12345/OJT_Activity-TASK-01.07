@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Form Validation</title>
+</head>
+<body>
+    <h1>JavaScript Form Validation</h1>
+    <form action="" name="forms1" onsubmit="return formvalidator()">
+        Name : <input type="text" name="fname"/>
+        <input type="submit" value="submit"/>
+    </form>
+
+
+    <script>
+        function formvalidator(){
+            const x = document.forms["forms1"]["fname"].value;
+            if(x == ""){
+                alert("bhaiya kuchh to fill karo....");
+                return false;
+            }
+        }
+    </script>
+
+
+    
+</body>
+</html>

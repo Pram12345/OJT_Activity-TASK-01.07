@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>
+    <p id="demo" onmousedown="bdown(this)" onmouseup="bup(this)"> click me</p>
+</h1>
+    <script>
+        function bdown(obj){
+            obj.style.backgroundColor="red";
+            obj.innerHTML = "o hello ye javascript hai";
+        }
+        function bup(obj){
+            obj.style.backgroundColor="blue";
+            obj.innerHTML = "click me";
+        }
+    </script>
+
+
+
+</body>
+</html>
